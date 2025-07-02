@@ -1,0 +1,321 @@
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+/* Body */
+
+body {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  background: #f4f9f9;
+
+  color: #333;
+
+}
+
+
+
+/* Navbar */
+
+.navbar {
+
+  background-color: #2c3e50;
+
+  padding: 15px 30px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+
+
+.navbar h1 {
+
+  color: #ecf0f1;
+
+  font-size: 24px;
+
+  letter-spacing: 2px;
+
+}
+
+
+
+.navbar ul {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 25px;
+
+}
+
+
+
+.navbar li a {
+
+  text-decoration: none;
+
+  color: #ecf0f1;
+
+  font-weight: 500;
+
+  transition: color 0.3s;
+
+}
+
+
+
+.navbar li a:hover {
+
+  color: #1abc9c;
+
+}
+
+
+
+/* Main Container */
+
+.container {
+
+  max-width: 600px;
+
+  background: #fff;
+
+  padding: 40px;
+
+  margin: 80px auto;
+
+  border-radius: 12px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+
+}
+
+
+
+.container h2 {
+
+  margin-bottom: 20px;
+
+  color: #34495e;
+
+}
+
+
+
+/* Upload Form */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+}
+
+
+
+input[type="file"] {
+
+  padding: 10px;
+
+  border: 2px dashed #ccc;
+
+  border-radius: 8px;
+
+  background: #fafafa;
+
+  cursor: pointer;
+
+}
+
+
+
+input[type="file"]:hover {
+
+  border-color: #1abc9c;
+
+}
+
+
+
+/* Predict Button */
+
+button {
+
+  padding: 12px 20px;
+
+  background-color: #1abc9c;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+
+}
+
+
+
+button:hover {
+
+  background-color: #16a085;
+
+}
+
+
+
+/* Result */
+
+.result {
+
+  margin-top: 25px;
+
+  padding: 15px;
+
+  background-color: #ecf9f2;
+
+  border: 1px solid #1abc9c;
+
+  border-radius: 8px;
+
+  color: #16a085;
+
+  font-weight: bold;
+
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #ecf0f1;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar li a:hover {
+  color: #1abc9c;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  background: #fff;
+  padding: 40px;
+  margin: 80px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+/* Upload Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+input[type="file"]:hover {
+  border-color: #1abc9c;
+}
+
+/* Predict Button */
+button {
+  padding: 12px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #16a085;
+}
+
+/* Result */
+.result {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #ecf9f2;
+  border: 1px solid #1abc9c;
+  border-radius: 8px;
+  color: #16a085;
+  font-weight: bold;
+}
